@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87CE58A0181E41BA00F23E42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CE589F181E41BA00F23E42 /* Foundation.framework */; };
+		87CE58A2181E41BA00F23E42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CE58A1181E41BA00F23E42 /* CoreGraphics.framework */; };
+		87CE58A4181E41BA00F23E42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CE58A3181E41BA00F23E42 /* UIKit.framework */; };
+		87CE58AA181E41BA00F23E42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87CE58A8181E41BA00F23E42 /* InfoPlist.strings */; };
+		87CE58AC181E41BA00F23E42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CE58AB181E41BA00F23E42 /* main.m */; };
+		87CE58B0181E41BA00F23E42 /* NNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CE58AF181E41BA00F23E42 /* NNAppDelegate.m */; };
+		87CE58B2181E41BA00F23E42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CE58B1181E41BA00F23E42 /* Images.xcassets */; };
+		87CE58B9181E41BA00F23E42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CE58B8181E41BA00F23E42 /* XCTest.framework */; };
+		87CE58BA181E41BA00F23E42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CE589F181E41BA00F23E42 /* Foundation.framework */; };
+		87CE58BB181E41BA00F23E42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CE58A3181E41BA00F23E42 /* UIKit.framework */; };
+		87CE58C3181E41BA00F23E42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87CE58C1181E41BA00F23E42 /* InfoPlist.strings */; };
+		87CE58C5181E41BA00F23E42 /* SETextViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CE58C4181E41BA00F23E42 /* SETextViewTestTests.m */; };
+		87CE58D3181E432B00F23E42 /* NNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CE58D2181E432B00F23E42 /* NNViewController.m */; };
+		EA2A9BD741324012A15999C2 /* libPods-SETextViewTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B779DCC56B2B4824A9EC3E24 /* libPods-SETextViewTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87CE58BC181E41BA00F23E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CE5894181E41BA00F23E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CE589B181E41BA00F23E42;
+			remoteInfo = SETextViewTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87CE589C181E41BA00F23E42 /* SETextViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SETextViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CE589F181E41BA00F23E42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87CE58A1181E41BA00F23E42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87CE58A3181E41BA00F23E42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87CE58A7181E41BA00F23E42 /* SETextViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SETextViewTest-Info.plist"; sourceTree = "<group>"; };
+		87CE58A9181E41BA00F23E42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87CE58AB181E41BA00F23E42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87CE58AD181E41BA00F23E42 /* SETextViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SETextViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		87CE58AE181E41BA00F23E42 /* NNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAppDelegate.h; sourceTree = "<group>"; };
+		87CE58AF181E41BA00F23E42 /* NNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAppDelegate.m; sourceTree = "<group>"; };
+		87CE58B1181E41BA00F23E42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87CE58B7181E41BA00F23E42 /* SETextViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SETextViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CE58B8181E41BA00F23E42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87CE58C0181E41BA00F23E42 /* SETextViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SETextViewTestTests-Info.plist"; sourceTree = "<group>"; };
+		87CE58C2181E41BA00F23E42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87CE58C4181E41BA00F23E42 /* SETextViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SETextViewTestTests.m; sourceTree = "<group>"; };
+		87CE58D1181E432B00F23E42 /* NNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
+		87CE58D2181E432B00F23E42 /* NNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
+		AFFC0E87582A4E99B667628F /* Pods-SETextViewTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SETextViewTest.xcconfig"; path = "Pods/Pods-SETextViewTest.xcconfig"; sourceTree = "<group>"; };
+		B779DCC56B2B4824A9EC3E24 /* libPods-SETextViewTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SETextViewTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CE5899181E41BA00F23E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CE58A2181E41BA00F23E42 /* CoreGraphics.framework in Frameworks */,
+				87CE58A4181E41BA00F23E42 /* UIKit.framework in Frameworks */,
+				87CE58A0181E41BA00F23E42 /* Foundation.framework in Frameworks */,
+				EA2A9BD741324012A15999C2 /* libPods-SETextViewTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CE58B4181E41BA00F23E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CE58B9181E41BA00F23E42 /* XCTest.framework in Frameworks */,
+				87CE58BB181E41BA00F23E42 /* UIKit.framework in Frameworks */,
+				87CE58BA181E41BA00F23E42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87CE5893181E41BA00F23E42 = {
+			isa = PBXGroup;
+			children = (
+				87CE58A5181E41BA00F23E42 /* SETextViewTest */,
+				87CE58BE181E41BA00F23E42 /* SETextViewTestTests */,
+				87CE589E181E41BA00F23E42 /* Frameworks */,
+				87CE589D181E41BA00F23E42 /* Products */,
+				AFFC0E87582A4E99B667628F /* Pods-SETextViewTest.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		87CE589D181E41BA00F23E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CE589C181E41BA00F23E42 /* SETextViewTest.app */,
+				87CE58B7181E41BA00F23E42 /* SETextViewTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87CE589E181E41BA00F23E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87CE589F181E41BA00F23E42 /* Foundation.framework */,
+				87CE58A1181E41BA00F23E42 /* CoreGraphics.framework */,
+				87CE58A3181E41BA00F23E42 /* UIKit.framework */,
+				87CE58B8181E41BA00F23E42 /* XCTest.framework */,
+				B779DCC56B2B4824A9EC3E24 /* libPods-SETextViewTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87CE58A5181E41BA00F23E42 /* SETextViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				87CE58AE181E41BA00F23E42 /* NNAppDelegate.h */,
+				87CE58AF181E41BA00F23E42 /* NNAppDelegate.m */,
+				87CE58B1181E41BA00F23E42 /* Images.xcassets */,
+				87CE58A6181E41BA00F23E42 /* Supporting Files */,
+				87CE58D1181E432B00F23E42 /* NNViewController.h */,
+				87CE58D2181E432B00F23E42 /* NNViewController.m */,
+			);
+			path = SETextViewTest;
+			sourceTree = "<group>";
+		};
+		87CE58A6181E41BA00F23E42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87CE58A7181E41BA00F23E42 /* SETextViewTest-Info.plist */,
+				87CE58A8181E41BA00F23E42 /* InfoPlist.strings */,
+				87CE58AB181E41BA00F23E42 /* main.m */,
+				87CE58AD181E41BA00F23E42 /* SETextViewTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87CE58BE181E41BA00F23E42 /* SETextViewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				87CE58C4181E41BA00F23E42 /* SETextViewTestTests.m */,
+				87CE58BF181E41BA00F23E42 /* Supporting Files */,
+			);
+			path = SETextViewTestTests;
+			sourceTree = "<group>";
+		};
+		87CE58BF181E41BA00F23E42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87CE58C0181E41BA00F23E42 /* SETextViewTestTests-Info.plist */,
+				87CE58C1181E41BA00F23E42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87CE589B181E41BA00F23E42 /* SETextViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CE58C8181E41BA00F23E42 /* Build configuration list for PBXNativeTarget "SETextViewTest" */;
+			buildPhases = (
+				4AB1721097DD4DB9812B9D4A /* Check Pods Manifest.lock */,
+				87CE5898181E41BA00F23E42 /* Sources */,
+				87CE5899181E41BA00F23E42 /* Frameworks */,
+				87CE589A181E41BA00F23E42 /* Resources */,
+				3DDE7E39F36F4307BC73DEA7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SETextViewTest;
+			productName = SETextViewTest;
+			productReference = 87CE589C181E41BA00F23E42 /* SETextViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87CE58B6181E41BA00F23E42 /* SETextViewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CE58CB181E41BA00F23E42 /* Build configuration list for PBXNativeTarget "SETextViewTestTests" */;
+			buildPhases = (
+				87CE58B3181E41BA00F23E42 /* Sources */,
+				87CE58B4181E41BA00F23E42 /* Frameworks */,
+				87CE58B5181E41BA00F23E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CE58BD181E41BA00F23E42 /* PBXTargetDependency */,
+			);
+			name = SETextViewTestTests;
+			productName = SETextViewTestTests;
+			productReference = 87CE58B7181E41BA00F23E42 /* SETextViewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CE5894181E41BA00F23E42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Naoto Horiguchi";
+				TargetAttributes = {
+					87CE58B6181E41BA00F23E42 = {
+						TestTargetID = 87CE589B181E41BA00F23E42;
+					};
+				};
+			};
+			buildConfigurationList = 87CE5897181E41BA00F23E42 /* Build configuration list for PBXProject "SETextViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87CE5893181E41BA00F23E42;
+			productRefGroup = 87CE589D181E41BA00F23E42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CE589B181E41BA00F23E42 /* SETextViewTest */,
+				87CE58B6181E41BA00F23E42 /* SETextViewTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87CE589A181E41BA00F23E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CE58AA181E41BA00F23E42 /* InfoPlist.strings in Resources */,
+				87CE58B2181E41BA00F23E42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CE58B5181E41BA00F23E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CE58C3181E41BA00F23E42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DDE7E39F36F4307BC73DEA7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SETextViewTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AB1721097DD4DB9812B9D4A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CE5898181E41BA00F23E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CE58D3181E432B00F23E42 /* NNViewController.m in Sources */,
+				87CE58B0181E41BA00F23E42 /* NNAppDelegate.m in Sources */,
+				87CE58AC181E41BA00F23E42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CE58B3181E41BA00F23E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CE58C5181E41BA00F23E42 /* SETextViewTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87CE58BD181E41BA00F23E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CE589B181E41BA00F23E42 /* SETextViewTest */;
+			targetProxy = 87CE58BC181E41BA00F23E42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87CE58A8181E41BA00F23E42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CE58A9181E41BA00F23E42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87CE58C1181E41BA00F23E42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CE58C2181E41BA00F23E42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87CE58C6181E41BA00F23E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87CE58C7181E41BA00F23E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87CE58C9181E41BA00F23E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFC0E87582A4E99B667628F /* Pods-SETextViewTest.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SETextViewTest/SETextViewTest-Prefix.pch";
+				INFOPLIST_FILE = "SETextViewTest/SETextViewTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87CE58CA181E41BA00F23E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFC0E87582A4E99B667628F /* Pods-SETextViewTest.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SETextViewTest/SETextViewTest-Prefix.pch";
+				INFOPLIST_FILE = "SETextViewTest/SETextViewTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87CE58CC181E41BA00F23E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SETextViewTest.app/SETextViewTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SETextViewTest/SETextViewTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SETextViewTestTests/SETextViewTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87CE58CD181E41BA00F23E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SETextViewTest.app/SETextViewTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SETextViewTest/SETextViewTest-Prefix.pch";
+				INFOPLIST_FILE = "SETextViewTestTests/SETextViewTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CE5897181E41BA00F23E42 /* Build configuration list for PBXProject "SETextViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CE58C6181E41BA00F23E42 /* Debug */,
+				87CE58C7181E41BA00F23E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CE58C8181E41BA00F23E42 /* Build configuration list for PBXNativeTarget "SETextViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CE58C9181E41BA00F23E42 /* Debug */,
+				87CE58CA181E41BA00F23E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CE58CB181E41BA00F23E42 /* Build configuration list for PBXNativeTarget "SETextViewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CE58CC181E41BA00F23E42 /* Debug */,
+				87CE58CD181E41BA00F23E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87CE5894181E41BA00F23E42 /* Project object */;
+}

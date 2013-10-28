@@ -1,0 +1,10 @@
+PODS:
+  - SECoreTextView (0.6.4)
+
+DEPENDENCIES:
+  - SECoreTextView
+
+SPEC CHECKSUMS:
+  SECoreTextView: ba3e65a190f1b4531e159d5f965dacd3f5a61158
+
+COCOAPODS: 0.25.0
